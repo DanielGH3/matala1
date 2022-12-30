@@ -8,7 +8,7 @@ public class Main {
         admin.register(member);
         admin.append("hello");
 
-        if(member.getValue() == "hello"){
+        if(member.getValue().equals("hello")){
             System.out.println("Hello");
         }
     }
